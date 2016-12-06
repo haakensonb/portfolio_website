@@ -1,5 +1,6 @@
 Todo:
 bootstrapify other sections
+portfolio: on image hover, overlay "Learn more"?
 add classes for other size devices
 make lines in main section spin on hover
 make links change on hover
