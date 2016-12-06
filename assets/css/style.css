@@ -49,3 +49,32 @@ html, body {
 .filler {
     height: 42px;
 }
+
+form > div > input {
+    width: 70%;
+    margin: 5px 0px 5px 0px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 28px;
+}
+
+form > div > textarea {
+    width: 70%;
+    margin: 5px 0px 5px 0px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 28px;
+
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.contact-right {
+    margin-top: 10%;
+}
+
+section {
+    margin-bottom: 20px;
+}
