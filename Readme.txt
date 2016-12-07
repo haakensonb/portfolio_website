@@ -1,5 +1,6 @@
 Todo:
-portfolio: on image hover, overlay "Learn more"?
+change nav link active
+smooth scroll
 make lines in main section spin on hover
 make links change on hover
 change color theme
