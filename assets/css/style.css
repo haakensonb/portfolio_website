@@ -82,3 +82,27 @@ textarea:focus, input:focus {
 section {
     margin-bottom: 20px;
 }
+
+.img-wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.img-text {
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: auto;
+    opacity: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+.img-wrap:hover .img-text {
+    visibility: visible;
+    opacity: 1;
+    background:rgba(0,0,0,0.6);
+}
