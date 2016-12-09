@@ -1,10 +1,4 @@
 $(document).ready(function () {
-    //Change active class of navbar based on click
-    $('ul.nav > li').click(function () {
-        $('ul.nav > li').removeClass('active');
-        $(this).addClass('active');
-    });
-
     // smooth scrolling, implemented with the help of stack overflow
     $(document).on('click', 'a[href^="#"]', function(e) {
         // target element id
