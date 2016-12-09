@@ -110,3 +110,7 @@ section {
 #about img {
     border-radius: 50%;
 }
+
+.scale:hover > i {
+    transform: scale(1.25);
+}
