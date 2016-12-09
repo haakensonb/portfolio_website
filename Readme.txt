@@ -1,5 +1,4 @@
 Todo:
-make lines in main section spin on hover
 make links change on hover
 change color theme
 add contact functionality with nodemailer?
