@@ -10,6 +10,10 @@ html, body {
     table-layout: fixed;
 }
 
+.nav > li:hover {
+    background-color: #e7e7e7;
+}
+
 .vert-child {
     display: table-cell;
     vertical-align: middle;
@@ -114,3 +118,13 @@ section {
 .scale:hover > i {
     transform: scale(1.25);
 }
+
+/*Change color of active highlight on mobile navbar*/
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #DD0000;
+}
+
+.navbar-default .navbar-brand:focus {
+    background-color: #DD0000;
+}
+/*-------------------------------------*/
