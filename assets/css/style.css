@@ -124,7 +124,7 @@ section {
 }
 
 #about img {
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .scale:hover > i {
