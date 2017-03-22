@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     background-color: #D3DCF2;
     color: #43464C;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 #home {
@@ -12,14 +13,27 @@ html, body {
     table-layout: fixed;
     color: #EFEFEF;
     background-color: #9197A6;
+    font-family: 'Lato', sans-serif;
 }
 
 #home a {
     color: #B6D051;
 }
 
-h1 {
-    color: #43464C;
+h1, h3, .navbar{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    font-size: 16px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+#about, #portfolio, #blog, #contact {
+    padding: 5px;
 }
 
 .nav > li:hover {
@@ -91,12 +105,13 @@ textarea:focus, input:focus {
     outline: none;
 }
 
-.contact-right {
-    margin-top: 10%;
-}
 
 section {
     margin-bottom: 20px;
+}
+
+#portfolio img {
+    margin-top: 10px;
 }
 
 .img-wrap {
@@ -125,6 +140,7 @@ section {
 
 #about img {
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .scale:hover > i {
