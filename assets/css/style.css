@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     height: 100%;
-    background-color: #D3DCF2;
-    color: #43464C;
+    background-color: #F7F7FF;
+    color: #353535;
     font-family: 'Droid Sans', sans-serif;
 }
 
@@ -11,17 +11,16 @@ html, body {
     width: 100%;
     display: table;
     table-layout: fixed;
-    color: #EFEFEF;
-    background-color: #9197A6;
     font-family: 'Lato', sans-serif;
 }
 
 #home a {
-    color: #B6D051;
+    color: #5cb85c;
 }
 
 h1, h3, .navbar{
     font-family: 'Lato', sans-serif;
+
 }
 
 .navbar {
@@ -34,6 +33,10 @@ h1, h3, .navbar{
 
 #about, #portfolio, #blog, #contact {
     padding: 5px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .nav > li:hover {
@@ -73,7 +76,7 @@ h1, h3, .navbar{
     height: 100%;
     width: 50%;
     float: right;
-    border-left: solid 3px white;
+    border-left: solid 3px #333;
 }
 
 .filler {
@@ -149,10 +152,12 @@ section {
 
 /*Change color of active highlight on mobile navbar*/
 .navbar-default .navbar-nav>li>a:focus {
-    background-color: #DD0000;
+    color: #EFEFEF;
+    background-color: #48577D;
 }
 
 .navbar-default .navbar-brand:focus {
-    background-color: #DD0000;
+    color: #EFEFEF;
+    background-color: #48577D;
 }
 /*-------------------------------------*/
